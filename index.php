@@ -3,15 +3,15 @@
 <html>
    <head>
    		<title>Font Testing Page — Latin Version</title>
-   		<link href="css/styles-v10.css?rand=<?php echo rand(5,500)?>" rel="stylesheet">
+   		<link href="output.css" rel="stylesheet">
    		<!-- <link href="css/print-v9.css" rel="stylesheet" media="print"> -->
    		<script src="js/jquery-1.7.2.min.js"></script>
    		<script>localStorage.clear();</script>
-   		<script src="js/fontdrag.js" type="text/javascript" charset="utf-8"></script>
-   		<script src="js/otfeatures-v9.1.js" type="text/javascript" charset="utf-8"></script>
-   		<script src="js/contentEditable.js" type="text/javascript" charset="utf-8"></script>
-   		<script src="includes/latin/constants-latin.js" type="text/javascript" charset="utf-8"></script>
-   		<script src="js/init.js" type="text/javascript" charset="utf-8"></script>
+   		<script src="js/fontdrag.js"></script>
+   		<script src="js/otfeatures-v9.1.js"></script>
+   		<script src="js/contentEditable.js"></script>
+   		<script src="includes/latin/constants-latin.js"></script>
+   		<script src="js/init.js"></script>
    		<script>
    		   $(document).ready(function(){
    		   	prepareAndShowFontLayout();
