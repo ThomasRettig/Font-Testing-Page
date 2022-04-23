@@ -1,0 +1,25 @@
+{
+  "name": "font-testing-page",
+  "version": "1.0.0",
+  "description": "Font Testing Page\r =================",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThomasRettig/Font-Testing-Page.git"
+  },
+  "keywords": [
+    "typography"
+  ],
+  "author": "Thomas Rettig",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ThomasRettig/Font-Testing-Page/issues"
+  },
+  "homepage": "https://github.com/ThomasRettig/Font-Testing-Page#readme",
+  "dependencies": {
+    "tailwindcss": "^3.0.24"
+  }
+}
